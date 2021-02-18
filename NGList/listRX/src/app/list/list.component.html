@@ -1,0 +1,6 @@
+<div>
+    Click to remove
+    <ul>
+        <li *ngFor="let item of list" (click)="removeUser(item.id)">{{item.name}}</li>
+    </ul>    
+</div>
